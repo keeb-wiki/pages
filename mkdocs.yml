@@ -1,3 +1,43 @@
-site_name: My Docs
+site_name: Keeb Wiki
 theme:
   name: material
+  features:
+    - tabs
+
+nav:
+  - Home: index.md
+  - Key Caps: 
+    - Introduction: keycaps/intro.md
+    - Material:
+      - ABS: keycaps/material/abs.md
+      - PBT: keycaps/material/pbt.md
+      - POM: keycaps/material/pom.md
+    - Profile:
+      - Cherry Profile: keycaps/profile/cherry.md
+      - OEM Profile: keycaps/profile/oem.md
+      - SA Profile: keycaps/profile/sa.md
+      - XDA Profile: keycaps/profile/xda.md
+      - MT3 Profile: keycaps/profile/mt3.md
+  - Key Layouts:
+    - Introduction: keylayouts/intro.md
+  - Switches:
+    - Introduction: switches/intro.md
+    - By Type:
+      - Linear:
+        - Gateron Black: switches/linear/gateron_black.md
+      - Tactile:
+        - Topre: switches/tactile/topre.md
+      - Clicky:
+        - Cherry MX Blue: switches/clicky/cherry_blue.md
+    - By Manufacturer:
+      - Cherry:
+        - Cherry MX Blue: switches/clicky/cherry_blue.md
+      - Gateron:
+        - Gateron Black: switches/linear/gateron_black.md
+      - Topre:
+        - Topre: switches/tactile/topre.md
+  - Mounting Methods:
+    - Tray Mount: mounting/tray_mount.md
+    - Top Mount: mounting/top_mount.md
+    - Gasket Mount: mounting/gasket_mount.md
+  - About: about.md
