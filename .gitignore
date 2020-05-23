@@ -1,0 +1,8 @@
+
+# Created by https://www.gitignore.io/api/mkdocs
+# Edit at https://www.gitignore.io/?templates=mkdocs
+
+#!! ERROR: mkdocs is undefined. Use list command to see defined gitignore types !!#
+
+# End of https://www.gitignore.io/api/mkdocs
+site/
